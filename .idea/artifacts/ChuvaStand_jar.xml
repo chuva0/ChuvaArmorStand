@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ChuvaStand:jar">
+    <output-path>D:/Minecraft/Servidor testes 1.18/plugins</output-path>
+    <root id="archive" name="ChuvaStand.jar">
+      <element id="module-output" name="ChuvaStand" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/config.yml" />
+    </root>
+  </artifact>
+</component>

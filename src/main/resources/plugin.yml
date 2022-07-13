@@ -1,0 +1,7 @@
+name: ChuvaArmorStand
+version: 1.0
+api-version: 1.18
+main: chuva.Chuva
+author: Chuva_OF
+commands:
+  chuva:
