@@ -57,6 +57,14 @@ public class Commands implements CommandExecutor {
                     }
                 }
                 if (args[0].equalsIgnoreCase("lista")) {
+                    int i = 0;
+                    for (String nomes : Chuva.getInstace().getConfig().getConfigurationSection("ArmorStands").getKeys(false)) {
+                        i++;
+                    }
+                    if (i == 0) {
+                        player.sendMessage(ChatColor.RED + "Ainda sem nenhuma ArmorStand");
+                        return true;
+                    }
                     if (args.length == 1) {
                         if (Chuva.getInstace().getConfig().get("ArmorStands") != null) {
                             for (String nomes : Chuva.getInstace().getConfig().getConfigurationSection("ArmorStands").getKeys(false)) {
